@@ -8,3 +8,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Hello World"
+
+  run_tests:
+    runson: ubuntu-latest
+    steps:
+      - run: npm test
