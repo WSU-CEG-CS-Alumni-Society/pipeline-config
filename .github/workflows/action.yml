@@ -10,6 +10,6 @@ jobs:
       - run: echo "Hello World"
 
   run_tests:
-    runson: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: npm test
