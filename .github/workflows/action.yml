@@ -12,4 +12,6 @@ jobs:
   run_tests:
     runs-on: ubuntu-latest
     steps:
-      - run: npm test
+      - uses: actions/checkout@v3
+      - run: npm install    # Optional: Install dependencies if needed
+      - run: npm test       # Run tests
